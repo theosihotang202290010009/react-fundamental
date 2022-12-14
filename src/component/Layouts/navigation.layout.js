@@ -1,10 +1,10 @@
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
+import {Navbar, Container, Nav} from "react-bootstrap"
 
 const Navigation = () => {
     return (
         <Navbar bg="light" variant="" expand="lg">
         <Container>
-          <Navbar.Brand href="/">PMM</Navbar.Brand>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

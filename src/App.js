@@ -11,13 +11,11 @@ const App = () => {
       <MainLayouts>
         <Router>
           <Routes>
-            <Route path="/" element={<h1>Homepage</h1>} />
+            <Route path="/" element={<h1>Theo Homepage</h1>} />
             <Route path="/albums" element={<Albums />} />
-            <Route path="/posts" element={<h1>Posting</h1>} />
+            <Route path="/posts" element={<h1>Ini Adalah Posting</h1>} />
           </Routes>
         </Router>
-      {/*<Albums title="Image API" description="we fatch random image API from
-      third party" />*/}
       </MainLayouts>
     </>
   )
